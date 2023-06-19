@@ -85,10 +85,11 @@ body{
 }
 
 .image img{
-  width: 102%;
-  height: 221px;
-  border-radius: 34px;
+  width: 80%;
+    height: 220px;
+    border-radius: 32px;
 }
+
 .ch3{
   color: yellow;
   /* margin-left: 123px; */
@@ -106,14 +107,11 @@ body{
 }
 .service{
   background-color: #082cfa94;
-  position: relative;
-  bottom: 40px;
 }
 
 .h2{
   color: yellow;
   text-align: center;
-  margin-top: 40px;
   margin-bottom: 40px;
   font-size: 44px;
   position: relative;
@@ -445,4 +443,29 @@ footer span a{
 }
 footer span a:hover{
   text-decoration: underline;
+}
+
+
+
+.h4{
+  text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+    margin-bottom: 65px;
+}
+
+.container{
+  display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 44%;
 }
